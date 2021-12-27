@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body> 
+    
+      <form >  
+<table> 
+<tr> 
+    <td> <input type="text" placeholder="title" class="inputs" id="inpTitle">
+        <P></P> </td>
+</tr>
+<tr> 
+    <td> <input type="text" placeholder="Author Name..." class="inputs" id="inpAuthor"> 
+        <p></p></td>
+</tr>
+<tr> 
+    <td> <input type="number" placeholder="Book Price.." class="inputs" id="inpPrice"> 
+    <p></p></td>
+</tr>
+<tr> 
+    <td> <input id="date" placeholder="Publication Date.." class="inputs" type="date" > 
+        <P></P></td>
+</tr>
+<tr> 
+    <td> <input id="email" placeholder="Author Email.." class="inputs" type="email" > 
+        <span id="reg"></span>
+        <P></P></td>
+</tr>
+<tr >
+    <td>
+        <select id="languages">
+        <option value="" selected disabled>select language</option>
+        <option id="english"> English</option>
+        <option id="english"> Spanish</option>
+        <option id="french" > French</option>
+        <option id="arabe"> Arabe</option> 
+        </select>
+        <p></p>
+     </td>
+</tr>
+<tr>
+    <td class="types">
+        <input class="type" type="radio" name="rd" value="Essai">Essaie
+        <input class="type" type="radio" name="rd" value="Bande-Dessinée">Bande-Dessinée
+        <input class="type" type="radio" name="rd" value="Roman">Roman
+        
+    </td>
+</tr>
+<tr>
+    <td></td>
+    <td>
+        <button id="btnAdd" type="button" onclick="verif()"> ADD</button>
+    </td>
+</tr>
+
+</table>
+    </form>
+<table id="list" >
+    <thead>
+        <th>Title </th> 
+        <th>Author name</th> 
+         <th> Price</th>
+         <th>date </th>
+         <th>author email </th>
+         <th>type </th>
+         <th>language</th>
+
+        </thead>
+    <tbody>
+
+
+    </tbody>
+ </table>
+
+
+ <script src="Untitled-1.js"></script>
+</body>
+</html>

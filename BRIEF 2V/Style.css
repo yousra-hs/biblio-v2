@@ -1,0 +1,90 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+background-size: contain;
+background-size: cover;
+background-repeat: no-repeat;
+text-align: center;
+background-color:#c98f61  ;
+
+
+}
+
+table{
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ 
+ margin-top: 30px;
+ font-size: 30px;
+
+
+
+}
+.inputs, select{ 
+margin-top: 20px;
+width: 270px;
+height: 40px;
+margin-left: 60PX;
+background-color:white;
+border-radius: 7px;
+
+
+}
+#radio{
+  justify-content: center;
+  align-items: center;
+}
+#date{
+    font-size: 18px;
+}
+.languages {
+ background-color:#c98f61 	;
+ width: 276px;
+ height: 45px;
+ margin-left: 60PX;
+ margin-top: 20px;
+ border-radius: 7px;
+ color: white;
+ 
+font-size: 15px;
+}
+thead{
+    background-color: #c98f61;
+}
+th{
+    height: 60px;
+    width: 200px;
+    font-size: 10px;
+}
+button{
+    float: right;
+}
+#type{
+    width: 80px;
+    height: 40px;
+    background-color: #c98f61 ;
+    margin-top: -14px;
+    color: white;
+    border-radius: 7px;
+}
+.types{
+    font-size: 20px;
+   padding: 25px;
+   color: black;}
+#btnAdd{
+    color: white;
+    background-color: #c98f61;
+    width: 90px;
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 15px;
+}
+#grpRadio{
+    margin : 40px;
+
+}
